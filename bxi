@@ -1,0 +1,5 @@
+if [ `uname -m` == 'aarch64' ]; then
+    chmod 777 64 && ./64
+else
+    chmod 777 32 && ./32
+fi
